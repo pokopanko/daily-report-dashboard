@@ -1,0 +1,34 @@
+{
+	"name": "daily-report-dashboard",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.3.3",
+		"@vitejs/plugin-react": "latest",
+		"chart.js": "latest",
+		"lucide-react": "latest",
+		"papaparse": "latest",
+		"react": "latest",
+		"react-chartjs-2": "latest",
+		"react-dom": "latest"
+	},
+	"devDependencies": {
+		"@types/papaparse": "latest",
+		"@types/react": "latest",
+		"@types/react-dom": "latest",
+		"autoprefixer": "latest",
+		"postcss": "latest",
+		"prettier": "latest",
+		"tailwindcss": "latest",
+		"typescript": "latest",
+		"vite": "latest"
+	}
+}

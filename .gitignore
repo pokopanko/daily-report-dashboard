@@ -1,0 +1,21 @@
+# 依存ライブラリ（容量が大きく、各自のPCで再生成できるため絶対に入れる）
+node_modules/
+.vite-temp/
+
+# ビルド成果物（サーバー側でビルドすることが多いため、ソースコード管理からは外すのが基本）
+dist/
+dist-ssr/
+*.local
+
+# エディタやシステムが自動生成する不要なファイル
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 環境変数（パスワードや秘密鍵が入るため、GitHubに公開してはいけない）
+.env
+.env.local
+.env.*.local
+
+*.tsbuildinfo
